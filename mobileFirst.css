@@ -1,0 +1,109 @@
+/*********************************************************
+Resets
+--------------------------------------------------------*/
+
+* {margin: 0;padding: 0;border: 0;}
+:focus {outline: 0;}
+
+/*  for HTML5 deficient browsers  */
+  article, aside, figure, figure img, figcaption, hgroup,
+  footer, header, nav, section {
+  	display: block;
+  }
+  figure {position: relative;}
+  figure img {width: 100%;}
+
+/*********************************************************
+Some UA specific things
+--------------------------------------------------------*/
+
+/* mobile webkit */
+
+  * {
+  	-webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+  }
+
+  /* if you set the user select to none above, you should reactivate it for inputs, etc. */
+  input, textarea,.selectable {
+    -webkit-user-select: text;
+  }
+
+/* 
+BlackBerry patches
+------------------
+override shadows its shadows render opaque and 
+do not inheret the rounded corners of their 
+target element 
+*/
+
+  .blackberry * {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+/*********************************************************
+@Default / Pocket Sized Devices 
+30em / 480px and up
+--------------------------------------------------------*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  line-height: 1.5;
+  color: #444;
+  overflow-x: hidden;
+  margin: 0;
+}
+  
+  /* 
+    we use a dynamically applied active class
+    on controls instead of the pseudo selector for 
+    more consistent behavior on touch devices
+  */
+  .active { 
+    position: relative; 
+    top: 1px; 
+  }
+
+  input,select,textarea, button { 
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+  
+/*********************************************************
+@Tablets
+37.5em / 600px and up
+--------------------------------------------------------*/
+
+@media only screen and (min-width: 37.5em) {
+	
+	body {
+	  font-size: 1em;
+	}
+	
+}
+
+/*********************************************************
+@Desktops / Desktop replacements
+64em / 1024px and up
+--------------------------------------------------------*/
+
+@media only screen and (min-width: 64em) { 
+	
+	body {
+
+	}
+	
+}
+
+/*********************************************************
+@High Pixel Density devices
+--------------------------------------------------------*/
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+}
