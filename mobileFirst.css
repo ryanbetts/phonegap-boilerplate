@@ -8,7 +8,7 @@ Resets
 /*  for HTML5 deficient browsers  */
   article, aside, figure, figure img, figcaption, hgroup,
   footer, header, nav, section {
-  	display: block;
+    display: block;
   }
   figure {position: relative;}
   figure img {width: 100%;}
@@ -20,7 +20,7 @@ Some UA specific things
 /* mobile webkit */
 
   * {
-  	-webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
     -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
@@ -50,7 +50,7 @@ target element
 --------------------------------------------------------*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   line-height: 1.5;
   color: #444;
@@ -69,7 +69,7 @@ body {
   }
 
   input,select,textarea, button { 
-  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
   }
   
 /*********************************************************
@@ -78,11 +78,11 @@ body {
 --------------------------------------------------------*/
 
 @media only screen and (min-width: 37.5em) {
-	
-	body {
-	  font-size: 1em;
-	}
-	
+  
+  body {
+    font-size: 1em;
+  }
+  
 }
 
 /*********************************************************
@@ -91,11 +91,11 @@ body {
 --------------------------------------------------------*/
 
 @media only screen and (min-width: 64em) { 
-	
-	body {
+  
+  body {
 
-	}
-	
+  }
+  
 }
 
 /*********************************************************
@@ -103,7 +103,7 @@ body {
 --------------------------------------------------------*/
 
 @media 
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min-device-pixel-ratio: 2) {
-	
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  
 }

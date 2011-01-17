@@ -1,143 +1,143 @@
 /*---------------------------------------------------
-	Font
+  Font
 ---------------------------------------------------*/
 
 body {
-	font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	letter-spacing: 0.1em;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 h1 {
-	font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	font-weight: normal;
-	letter-spacing: 0.05em;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
 }
 
 .bt {
-	font-size: 12px;
-	letter-spacing: 0.1em;
-	font-family: 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-family: 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif;
 }
 
 
 /*---------------------------------------------------
-	Generic
+  Generic
 ---------------------------------------------------*/
 
 a {
 }
 
 p {
-	line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 p + p {
-	margin-top: 1.2em;
+  margin-top: 1.2em;
 }
 
 /*---------------------------------------------------
-	Layout
+  Layout
 ---------------------------------------------------*/
 
 .right, .left, .top {
-	position: absolute;
-	top: 0;
+  position: absolute;
+  top: 0;
 }
 
 .left {
-	left: 0;
+  left: 0;
 }
 
 .right {
-	right: 0;
+  right: 0;
 }
 
 /*---------------------------------------------------
-	UI - General
+  UI - General
 ---------------------------------------------------*/
 
 .card {
-	position: relative;
+  position: relative;
 }
 
 /*---------------------------------------------------
-	UI - Buttons
+  UI - Buttons
 ---------------------------------------------------*/
 
 .bt {
-	text-align: center;
+  text-align: center;
 }
 
 
 /*---------------------------------------------------
-	UI - Header
+  UI - Header
 ---------------------------------------------------*/
 
 .header, .header-item {
-	height: 50px;
-	line-height: 48px;
-	color: #fff;
+  height: 50px;
+  line-height: 48px;
+  color: #fff;
 }
 
 .header {
-	position: relative;
-	text-align: center;
-	background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#999));
-	border-bottom: #666 solid 1px;
+  position: relative;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#999));
+  border-bottom: #666 solid 1px;
 }
 
 .header-item {
 }
 
 .header-title {
-	text-shadow: #999 -1px -1px 1px;
+  text-shadow: #999 -1px -1px 1px;
 }
 
 .header .bt {
-	height: 37px;
-	width: 70px;
-	line-height: 37px;
-	text-shadow: #888 -1px -1px 1px;
-	-webkit-border-radius: 8px;
-	border: 1px solid #666;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#888), color-stop(2%, #aaa));
-	margin: 6px;
+  height: 37px;
+  width: 70px;
+  line-height: 37px;
+  text-shadow: #888 -1px -1px 1px;
+  -webkit-border-radius: 8px;
+  border: 1px solid #666;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#888), color-stop(2%, #aaa));
+  margin: 6px;
 }
 
 .header .bt.active {
-	background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#777), color-stop(2%, #999));
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#777), color-stop(2%, #999));
 }
 
 /*---------------------------------------------------
-	UI - Body
+  UI - Body
 ---------------------------------------------------*/
 
 .text-holder {
-	padding: 24px 24px;
+  padding: 24px 24px;
 }
 
 /*---------------------------------------------------
-	UI - List
+  UI - List
 ---------------------------------------------------*/
 
 .list-item {
-	padding: 24px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
-	border-bottom: #999 1px solid;
-	position: relative;
+  padding: 24px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+  border-bottom: #999 1px solid;
+  position: relative;
 }
 
 .list-item.active {
-	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
 }
 
 .list-item span {
-	font-weight: bold;
-	position: absolute;
-	font-size: 12px;
-	right: 10px;
+  font-weight: bold;
+  position: absolute;
+  font-size: 12px;
+  right: 10px;
 }
 
 
